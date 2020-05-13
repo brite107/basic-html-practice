@@ -1,7 +1,86 @@
-a {
-  text-decoration: none;
+body {
+  margin: 0;
+  min-width: 530px;
+  background-origin: 1px solid;
+  height: 100vh;
 }
 
-a img {
-  width: 50px;
+header {
+  background-color: darkgray;
+  border: 1px solid;
+  font-family: "Comic Sans MS", monospace;
+  font: "Comic Sans MS";
+}
+
+#title {
+  text-align: center;
+}
+
+#allFields {
+  width: 100%;
+  display: flex;
+  padding: 7px;
+}
+
+#buttons {
+  width: 20%;
+}
+
+#buttons img {
+  width: 20%;
+}
+
+#fields {
+  width: 80%;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#fields input {
+  width: 70%;
+}
+
+
+#searchInput {
+  position: relative;
+  margin-left: 17px;
+  width: 19%;
+}
+
+#searchInput input {
+  position: absolute;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#searchInput img {
+  width: 10px;
+  position: absolute;
+  padding: 5px;
+}
+
+#contact {
+  font-size: 14px;
+  font-family: "Comic Sans MS", monospace;
+  font: "Comic Sans MS";
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+#contact div ul {
+  margin-top: 0;
+}
+
+#contact div ul li {
+  list-style: none;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkgray;
+  height: 10px;
+  border: 1px solid;
 }
